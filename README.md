@@ -35,7 +35,7 @@
 ### 1. 获取代码
 ```bash
 # 下载代码
-git clone https://github.com/your-username/volunteer-system-backend.git
+git clone https://github.com/Minshenyao/volunteer-system-backend-java.git
 
 # 进入项目目录
 cd volunteer-system-backend
@@ -75,7 +75,7 @@ aliyun.oss.folder=
 ### 3. 启动服务
 ```bash
 # 使用Maven打包
-./mvnw clean package
+mvn clean package
 
 # 运行应用
 java -jar target/volunteer-system-backend-0.0.1-SNAPSHOT.jar
