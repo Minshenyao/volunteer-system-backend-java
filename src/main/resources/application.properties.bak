@@ -1,0 +1,15 @@
+spring.application.name=volunteer-system-backend
+
+spring.datasource.url=jdbc:mysql://127.0.0.1:3306/volunteer_db?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+#spring.jpa.hibernate.ddl-auto=create
+spring.datasource.username=
+spring.datasource.password=
+
+jwt.secret=
+
+aliyun.oss.endpoint=
+aliyun.oss.access-key-id=
+aliyun.oss.access-key-secret=
+aliyun.oss.bucket-name=
+aliyun.oss.folder=
